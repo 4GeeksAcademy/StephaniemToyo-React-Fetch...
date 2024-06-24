@@ -76,6 +76,7 @@ const Home = () => {
     };
     useEffect(() => {
         fetchGetTasks();
+        fetchCreateUser();
     }, []);
     const handleChange = (e) => {
         setTarea(e.target.value);
