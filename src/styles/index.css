@@ -1,12 +1,33 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: grad;
+    background: linear-gradient(to bottom, purple, blue, grey);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hola5{
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+}
+.hola5 .text-left {
+    text-align: left; /* Mover el texto a la izquierda */
+    margin-right: 10px;
+}
+.btn-dark{
+    margin-top: 5px;
+}
+#botonrojo{
+    padding-right: 3; /* Eliminar padding a la derecha */
+}
+li button {
+    margin-left: auto; /* Mover el botón hacia la derecha */
+    padding-right: 0; /* Eliminar padding a la derecha */
+}
